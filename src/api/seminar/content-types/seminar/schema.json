@@ -1,0 +1,33 @@
+ {
+  "kind": "collectionType",
+  "collectionName": "seminars",
+  "info": {
+    "singularName": "seminar",
+    "pluralName": "seminars",
+    "displayName": "seminar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "time",
+      "required": true
+    }
+  }
+}

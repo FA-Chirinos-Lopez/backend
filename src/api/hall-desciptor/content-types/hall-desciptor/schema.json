@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hall_desciptors",
+  "info": {
+    "singularName": "hall-desciptor",
+    "pluralName": "hall-desciptors",
+    "displayName": "Hall Desciptor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HallName": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

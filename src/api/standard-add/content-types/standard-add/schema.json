@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "standard_adds",
+  "info": {
+    "singularName": "standard-add",
+    "pluralName": "standard-adds",
+    "displayName": "StandardAdd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ExhibitorAnimationOrGraphic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "CallToAction": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "time"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    }
+  }
+}

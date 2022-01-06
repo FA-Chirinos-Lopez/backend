@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "screens",
+  "info": {
+    "singularName": "screen",
+    "pluralName": "screens",
+    "displayName": "screen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "screenName": {
+      "type": "string"
+    },
+    "hall_desciptors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hall-desciptor.hall-desciptor"
+    }
+  }
+}

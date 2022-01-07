@@ -4,7 +4,7 @@
   "info": {
     "singularName": "screen",
     "pluralName": "screens",
-    "displayName": "screen",
+    "displayName": "Screens",
     "description": ""
   },
   "options": {
@@ -15,10 +15,20 @@
     "screenName": {
       "type": "string"
     },
-    "hall_desciptors": {
+    "stage_timetables": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::hall-desciptor.hall-desciptor"
+      "target": "api::seminar.seminar"
+    },
+    "hall_descriptors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hall-descriptor.hall-descriptor"
+    },
+    "advertisements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertisement.advertisement"
     }
   }
 }

@@ -1,16 +1,25 @@
 {
   "kind": "collectionType",
-  "collectionName": "standard_adds",
+  "collectionName": "advertisements",
   "info": {
-    "singularName": "standard-add",
-    "pluralName": "standard-adds",
-    "displayName": "StandardAdd"
+    "singularName": "advertisement",
+    "pluralName": "advertisements",
+    "displayName": "Advertisements"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "CallToAction": {
+      "type": "text"
+    },
     "ExhibitorAnimationOrGraphic": {
       "allowedTypes": [
         "images",
@@ -20,17 +29,12 @@
       "type": "media",
       "multiple": false
     },
-    "CallToAction": {
-      "type": "string"
-    },
     "Time": {
       "type": "time"
     },
-    "Title": {
-      "type": "string"
-    },
-    "Location": {
-      "type": "string"
+    "FullScreen": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

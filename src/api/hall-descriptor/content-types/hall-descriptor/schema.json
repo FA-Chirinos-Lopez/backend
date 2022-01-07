@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "hall_desciptors",
+  "collectionName": "hall_descriptors",
   "info": {
-    "singularName": "hall-desciptor",
-    "pluralName": "hall-desciptors",
-    "displayName": "Hall Desciptor",
-    "description": ""
+    "singularName": "hall-descriptor",
+    "pluralName": "hall-descriptors",
+    "displayName": "Hall Descriptor"
   },
   "options": {
     "draftAndPublish": true
@@ -19,10 +18,10 @@
       "type": "string"
     },
     "Subtitle": {
-      "type": "string"
+      "type": "text"
     },
     "Description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

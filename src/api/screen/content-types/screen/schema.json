@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "screens",
+  "info": {
+    "singularName": "screen",
+    "pluralName": "screens",
+    "displayName": "Screen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ScreenName": {
+      "type": "string"
+    },
+    "advertisements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertisement.advertisement"
+    },
+    "hall_descriptors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hall-descriptor.hall-descriptor"
+    },
+    "stage_timetables": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::seminar.seminar"
+    }
+  }
+}

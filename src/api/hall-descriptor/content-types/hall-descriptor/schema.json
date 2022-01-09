@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hall_descriptors",
+  "info": {
+    "singularName": "hall-descriptor",
+    "pluralName": "hall-descriptors",
+    "displayName": "Hall Descriptor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HallName": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

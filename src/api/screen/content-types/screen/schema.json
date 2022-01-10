@@ -4,7 +4,8 @@
   "info": {
     "singularName": "screen",
     "pluralName": "screens",
-    "displayName": "Screen"
+    "displayName": "Screen",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,12 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "ScreenName": {
-      "type": "string"
-    },
-    "advertisements": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::advertisement.advertisement"
+      "type": "string",
+      "required": true
     },
     "hall_descriptors": {
       "type": "relation",
@@ -28,6 +25,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::seminar.seminar"
+    },
+    "advertisementsToAdd": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertisement.advertisement"
     }
   }
 }

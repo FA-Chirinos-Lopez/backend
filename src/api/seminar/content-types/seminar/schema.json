@@ -27,7 +27,7 @@
     },
     "time": {
       "type": "time",
-      "required": true
+      "required": false
     }
   }
 }

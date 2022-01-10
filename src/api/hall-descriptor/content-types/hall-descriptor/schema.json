@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hall-descriptor",
     "pluralName": "hall-descriptors",
-    "displayName": "Hall Descriptor"
+    "displayName": "Hall Descriptor",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +17,8 @@
       "required": true
     },
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Subtitle": {
       "type": "string"

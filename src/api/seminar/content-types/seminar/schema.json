@@ -25,9 +25,12 @@
       "type": "string",
       "required": true
     },
-    "time": {
+    "TimeStart": {
       "type": "time",
       "required": true
+    },
+    "TimeEnd": {
+      "type": "time"
     }
   }
 }

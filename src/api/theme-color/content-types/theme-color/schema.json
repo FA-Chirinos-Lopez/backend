@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_colors",
+  "info": {
+    "singularName": "theme-color",
+    "pluralName": "theme-colors",
+    "displayName": "Theme color",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Color": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "White",
+        "Blue"
+      ],
+      "default": "White"
+    }
+  }
+}

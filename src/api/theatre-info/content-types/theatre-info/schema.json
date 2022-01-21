@@ -51,6 +51,16 @@
         "files",
         "videos"
       ]
+    },
+    "SeminarsDurationSlide": {
+      "type": "integer",
+      "default": 5,
+      "required": true
+    },
+    "HalldescriptorDurationSlide": {
+      "type": "integer",
+      "required": true,
+      "default": 5
     }
   }
 }

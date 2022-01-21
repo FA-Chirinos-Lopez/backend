@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_asset_from_urls",
+  "info": {
+    "displayName": "FromURL",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "Url": {
+      "type": "string"
+    }
+  }
+}

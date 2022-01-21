@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_url_method_video_urls",
+  "info": {
+    "displayName": "VideoUrl",
+    "icon": "desktop"
+  },
+  "options": {},
+  "attributes": {
+    "Url": {
+      "type": "string"
+    }
+  }
+}

@@ -40,6 +40,33 @@
     },
     "TimeEnd": {
       "type": "time"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "DescriptionSecondParagraph": {
+      "type": "text"
+    },
+    "Duration": {
+      "type": "integer",
+      "default": 5,
+      "required": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Video",
+        "Image"
+      ],
+      "required": false,
+      "default": "Image"
+    },
+    "IsURL": {
+      "type": "boolean",
+      "default": false
+    },
+    "Url": {
+      "type": "string"
     }
   }
 }

@@ -60,13 +60,6 @@
       ],
       "required": false,
       "default": "Image"
-    },
-    "IsURL": {
-      "type": "boolean",
-      "default": false
-    },
-    "Url": {
-      "type": "string"
     }
   }
 }

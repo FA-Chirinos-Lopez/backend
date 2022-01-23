@@ -15,19 +15,5 @@
       "localized": true
     }
   },
-  "attributes": {
-    "Color": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "White",
-        "Blue"
-      ],
-      "default": "White"
-    }
-  }
+  "attributes": {}
 }

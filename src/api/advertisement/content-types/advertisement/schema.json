@@ -4,8 +4,11 @@
   "info": {
     "singularName": "advertisement",
     "pluralName": "advertisements",
-    "displayName": "Advertisements",
-    "description": ""
+
+    "displayName": "Advertisement"
+
+    
+
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +16,10 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+
+      "type": "string",
+      "required": true
+
     },
     "Location": {
       "type": "string"
@@ -22,44 +28,22 @@
       "type": "text"
     },
     "ExhibitorAnimationOrGraphic": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
+
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ]
+
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "TimeStart": {
+    "Time": {
       "type": "time"
     },
     "FullScreen": {
-      "type": "boolean",
-      "default": false
-    },
-    "TimeEnd": {
-      "type": "time"
-    },
-    "Description": {
-      "type": "text"
-    },
-    "DescriptionSecondParagraph": {
-      "type": "text"
-    },
-    "Duration": {
-      "type": "integer",
-      "default": 5,
-      "required": true
-    },
-    "Type": {
-      "type": "enumeration",
-      "enum": [
-        "Video",
-        "Image"
-      ],
-      "required": false,
-      "default": "Image"
+      "type": "boolean"
+
     }
   }
 }

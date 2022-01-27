@@ -4,7 +4,11 @@
   "info": {
     "singularName": "advertisement",
     "pluralName": "advertisements",
+
     "displayName": "Advertisement"
+
+    
+
   },
   "options": {
     "draftAndPublish": true
@@ -12,8 +16,10 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
+
       "type": "string",
       "required": true
+
     },
     "Location": {
       "type": "string"
@@ -22,10 +28,12 @@
       "type": "text"
     },
     "ExhibitorAnimationOrGraphic": {
+
       "allowedTypes": [
         "images",
         "files",
         "videos"
+
       ],
       "type": "media",
       "multiple": false
@@ -35,6 +43,7 @@
     },
     "FullScreen": {
       "type": "boolean"
+
     }
   }
 }

@@ -25,9 +25,11 @@
       "type": "string",
       "required": true
     },
-    "time": {
+    "TimeStart": {
       "type": "time",
+
       "required": false
+
     }
   }
 }

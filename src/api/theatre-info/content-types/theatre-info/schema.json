@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "theatre_infos",
+  "info": {
+    "singularName": "theatre-info",
+    "pluralName": "theatre-infos",
+    "displayName": "Theatre Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TheatreName": {
+      "type": "string",
+      "required": true
+    },
+    "TopicOrSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "SponsoredBy": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "EventName": {
+      "type": "string",
+      "required": true
+    },
+    "EventStart": {
+      "type": "date",
+      "required": true
+    },
+    "EventEnd": {
+      "type": "date",
+      "required": true
+    },
+    "FooterImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "SeminarsDurationSlide": {
+      "type": "integer",
+      "default": 5,
+      "required": true
+    },
+    "HalldescriptorDurationSlide": {
+      "type": "integer",
+      "required": true,
+      "default": 5
+    }
+  }
+}

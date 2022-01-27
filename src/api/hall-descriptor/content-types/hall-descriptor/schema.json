@@ -4,8 +4,10 @@
   "info": {
     "singularName": "hall-descriptor",
     "pluralName": "hall-descriptors",
+
     "displayName": "Hall Descriptor",
     "description": ""
+
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +15,7 @@
   "pluginOptions": {},
   "attributes": {
     "HallName": {
+
       "type": "string",
       "required": true
     },
@@ -22,6 +25,7 @@
     },
     "Subtitle": {
       "type": "string"
+
     },
     "Description": {
       "type": "text"

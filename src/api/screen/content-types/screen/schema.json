@@ -4,7 +4,10 @@
   "info": {
     "singularName": "screen",
     "pluralName": "screens",
+
     "displayName": "Screen",
+
+
     "description": ""
   },
   "options": {
@@ -12,6 +15,7 @@
   },
   "pluginOptions": {},
   "attributes": {
+
     "ScreenName": {
       "type": "string",
       "required": true
@@ -27,6 +31,7 @@
       "target": "api::seminar.seminar"
     },
     "advertisementsToAdd": {
+
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::advertisement.advertisement"
